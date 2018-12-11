@@ -1,0 +1,70 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 15px;
+    width: 75%;
+    position: relative;
+}
+
+.gif img, .btn-link {
+  position: absolute;
+}
+
+.btn-link {
+  top: 50%;
+  left: 5%;
+}
+
+.volume-icon {
+  height: 100px;
+  color: black;
+}
+
+
+.on {
+  display: block;
+}
+
+.off {
+  display: none;
+}
+
+
+.btn-link, .volume-icon {
+  position: absolute;
+  left: 5%;
+}
+
+
+.incorrect {
+  animation: shake 0.91s;
+  transform: translate3d(0, 0, 0); 
+   perspective: 1000px;
+}
+
+
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-10px, 0, 0);
+  }
+  20%, 80% {
+    transform: translate3d(10px, 0, 0);
+  }
+  30%, 50%, 70% {
+    transform: translate3d(-20px, 0, 0);
+  }
+  40%, 60% {
+    transform: translate3d(20px, 0, 0);
+  }
+}
+
+.incorrect img{
+  display:none;
+}
+
+@media only screen and (max-width: 1300px) {
+  /* .gif {
+    display: none;
+  } delete me*/
+  
+}

@@ -1,0 +1,33 @@
+.btn-score {
+    position: absolute;
+    left: -50px;
+    top: 125px;
+    margin-top: -110px;
+    padding-bottom: 15px;
+}
+
+
+.btn-info {
+    color: black;
+    background-color: wheat;
+    border: none;
+}
+
+.badge {
+    /* color: black; */
+}
+
+.btn-score:hover {
+    box-shadow: 0 5px 12px rgba(15, 15, 15, 0.16), 0 3px 6px rgba(0,0,0,.23);
+    cursor: default;
+
+}
+
+
+@media only screen and (max-width: 1350px) {
+    .btn-score {
+        position: static;
+        border-radius: 5px;
+        margin-top: 2px;
+    }
+}
